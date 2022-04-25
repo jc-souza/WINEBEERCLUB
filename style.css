@@ -1,0 +1,93 @@
+* {
+    margin: 0; padding: 0; font-size: 100%; font-family: 'Six Caps'; font-weight: normal;
+    box-sizing: border-box; border:none; outline: none; 
+}
+
+img { max-width: 100%; }
+ul { list-style: none; }
+a { text-decoration: none; }
+h2 { font-size: 5em; color: black; }
+h3 { font-size: 3em; color: black; }
+p { font-size: 2.5em; color:grey; }
+
+/* CABEÇALHO */
+.cabecalho {
+    width: 100%; float: left; padding: 50px 8%; background-color: #400101; }
+.logo a{ 
+    width: 221px; height: 48px; float: left; background: url(./LOGO.png) no-repeat; font-size: 0;}
+.cabecalho form {
+    width: 30%; float: right;}
+.cabecalho input[type="text"] {
+    width: 85%; float: left; padding: 10px 5px; }
+.cabecalho button {
+    width: 15%; float: right; padding: 10px 5px; background-color: whitesmoke; cursor: pointer}
+
+.cabecalho{
+    position: fixed;
+
+}
+
+
+/* MENU */
+.menu{
+    width: 100%; float: left; background-color: #350404; padding: 18px 8%; font-size: 2.3em; margin-top: 148px;}
+.menu li{
+    float: left;}
+.menu li a{
+    color: white; margin-right: 25px;}
+.menu li a:hover{
+    color: grey;}
+
+/* SOCIAL */
+.social {
+    float: right; margin-left: 8%; } 
+.social a {
+    color: white;}
+.social a:hover{
+    color: grey }
+
+/* PRINCIPAL */
+.principal{
+    width: 100%; float: left; padding: 10px 5%;}
+.art1{
+    width: 70%; float: left; padding: 0 10px 10px 0;}
+.art1 h2 {
+    margin-bottom: 10px;}
+.art1 img {
+    width: 50%; float: left; margin: 5px 10px 10px 0;}
+.art1 p {
+    text-align: justify;}
+
+/* ASIDE */
+.onde-estamos{
+    width: 30%; float: right; padding: 0 10px; background-color: whitesmoke;}
+.onde-estamos h2{
+    margin-bottom: 10px;}
+.onde-estamos iframe {
+        width: 100%; } 
+
+/* SOBRE NÓS */
+.sobre-nos{
+    width: 70%; float: left; padding: 0 10px 10px 0;}
+.art2 h2 {
+        margin-bottom: 10px;}
+.art2 p {
+            text-align: justify;}
+
+/* NEWS LATTER */
+.newsletter{
+    width: 100%; float: left; padding: 50px 8%; background-color: #400101;
+}
+.newsletter label{
+    color: grey;font-size: 2em;}
+.newsletter button{
+    background-color: whitesmoke; cursor: pointer; width: 18%; float: right; padding: 10px 5px;}
+    .newsletter input[type="text"] {
+        width: 30%; float: left; padding: 10px 5px; border: 1px solid black; margin-right: 25px;}
+    .newsletter input[type="number"] {
+            width: 15%; float: left; padding: 10px 5px; border: 1px solid black;margin-right: 25px;}
+    .newsletter input[type="email"] {
+                width: 30%; float: left; padding: 10px 5px; border: 1px solid black;margin-right: 5px;}
+
+   
+
